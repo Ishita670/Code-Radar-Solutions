@@ -15,7 +15,7 @@ int main(){
             printf("Slow down");
             break;
         default:
-            printf("invalid input");
+            printf("Invalid input");
             break;
     }
 }
