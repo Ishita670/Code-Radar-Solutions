@@ -7,5 +7,6 @@ int main(){
         for(int j=65;j<=i;j++){
             printf("%c "char(j));
         }
+        printf("\n");
     }
 }
