@@ -12,6 +12,7 @@ int main(){
             }
             else{
                 printf("1%d1",i);
+                break;
             }
         }
         printf("\n");
