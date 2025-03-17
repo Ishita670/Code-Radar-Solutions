@@ -12,8 +12,8 @@ int main(){
         for(int j=0;j<n;j+=2){
              if(arr[i]>m){
             m=arr[i];
-            printf("%d",m);
             break;
+            printf("%d",m);
         }
         else{
             printf("-1");
