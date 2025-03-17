@@ -13,11 +13,11 @@ int main(){
              if(arr[i]>m){
             m=arr[i];
             break;
-            printf("%d",m);
         }
         else{
-            printf("-1");
+            m=-1;
         }
         }
     }
+    printf("%d",m);
 }
