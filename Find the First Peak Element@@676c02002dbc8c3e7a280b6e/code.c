@@ -8,7 +8,6 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=0;i<n;i++){
         for(int j=0;j<n;j+=3){
              if(arr[j]>m){
             m=arr[j];
@@ -16,7 +15,6 @@ int main(){
         }
         else{
             m=-1;
-        }
         }
     }
     printf("%d",m);
