@@ -10,9 +10,6 @@ int main(){
         if(arr[i]>m){
             m=arr[i];
         }
-        if(arr[i]<m && arr[i]>m1){
-            m1=arr[i];
-        }
     }
     printf("%d",m1);
 }
