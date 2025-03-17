@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(i=0;i<n;i++){
-        for(int j=0;j<n;j+=2){
+        for(int j=0;j<n;j+=3){
              if(arr[i]>m){
             m=arr[i];
             break;
