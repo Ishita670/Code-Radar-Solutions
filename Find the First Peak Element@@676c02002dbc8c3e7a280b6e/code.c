@@ -4,7 +4,7 @@ int main(){
     int n,i;
     scanf("%d",&n);
     int arr[n];
-    int m=0,m1=0;
+    int m=0;
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -13,5 +13,5 @@ int main(){
             m=arr[i];
         }
     }
-    printf("%d",m1);
+    printf("%d",m);
 }
