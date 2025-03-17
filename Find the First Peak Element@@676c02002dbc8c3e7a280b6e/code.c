@@ -5,12 +5,12 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     int m=0;
-    for(i=0;i<n;i++){
+    for(i=1;i<=n;i++){
         scanf("%d",&arr[i]);
     }
-        for(int j=0;j<n;j+=3){
-             if(arr[j]>m){
-            m=arr[j];
+        for(i=1;j<=n;j+=3){
+             if(arr[i]>m){
+            m=arr[i];
             break;
         }
         else{
