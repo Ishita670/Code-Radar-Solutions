@@ -12,6 +12,6 @@ int main(){
     scanf("%d",&k);
     for(i=0;i<n;i++){
         arr[i+k]=arr[i];
-        printf("%d",arr[i+k]);
+        printf("%d\n",arr[i+k]);
     }
 }
