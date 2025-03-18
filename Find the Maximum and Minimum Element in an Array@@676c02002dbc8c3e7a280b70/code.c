@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     int ma,mi;
-    ma=arr[1];
+    ma=-1;
     mi=arr[1];
     for(int i=1;i<=n;i++){
         scanf("%d",&arr[i]);
