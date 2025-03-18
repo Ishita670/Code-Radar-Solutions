@@ -7,10 +7,10 @@ int main(){
     int ma=arr[1],mi=arr[1];
     for(int i=1;i<=n;i++){
         scanf("%d",&arr[i]);
-        if(arr[i]>ma){
+        if(arr[i]>=ma){
             ma=arr[i];
         }
-        if(arr[i]<mi){
+        if(arr[i]<=mi){
             mi=arr[i];
         }
     }
