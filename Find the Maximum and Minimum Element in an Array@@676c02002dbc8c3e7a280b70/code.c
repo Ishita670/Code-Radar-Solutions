@@ -4,10 +4,11 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int ma=-1;
-    int mi=arr[1];
+    int ma,mi;
     for(int i=1;i<=n;i++){
         scanf("%d",&arr[i]);
+        ma=-1;
+        mi=arr[1];
         if(arr[i]>=ma){
             ma=arr[i];
         }
