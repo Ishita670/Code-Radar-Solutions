@@ -8,10 +8,10 @@ int main(){
     int m1=0;
     for(int i=1;i<=n;i++){
         scanf("%d",&arr[i]);
-        if(arr[i]>=m){
+        if(arr[i]>m){
             m=arr[i];
         }
-        if(arr[i]>=m1 && arr[i]<m){
+        if(arr[i]>m1 && arr[i]<m){
             m1=arr[i];
         }
     }
