@@ -14,6 +14,9 @@ int main(){
         if(arr[i]>m1 && arr[i]<m){
             m1=arr[i];
         }
+        else{
+            m1=-1;
+        }
     }
     printf("%d",m1);
 }
