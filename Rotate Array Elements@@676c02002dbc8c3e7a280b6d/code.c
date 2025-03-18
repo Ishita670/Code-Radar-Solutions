@@ -13,6 +13,6 @@ int main(){
     int arr1[n];
     for(i=0;i<n;i++){
         arr1[i+k]=arr[i];
-        printf("%d\n",arr[i+k]);
+        printf("%d\n",arr1[i+k]);
     }
 }
