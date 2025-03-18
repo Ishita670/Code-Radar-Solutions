@@ -1,15 +1,14 @@
 #include <stdio.h>
 int main(){
     int n;
-    int a=1;
+    scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i;j++){
-            if(i==1){
-                printf("%d",a);
+            if((i+j)%2==0){
+                printf("1");
             }
             else{
-                printf("%d ",a-1);
-                a++;
+                printf("0");
             }
         }
         printf("\n");
