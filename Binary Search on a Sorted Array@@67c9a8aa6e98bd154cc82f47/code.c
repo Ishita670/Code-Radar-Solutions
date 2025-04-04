@@ -2,7 +2,7 @@
 int binarySearch(int arr[], int n, int target){
     int high=n-1;
     int low=0;
-    int mid,index=0;
+    int mid;
     while(low<=high){
         mid=(high+low)/2;
         if(target<arr[mid]){
@@ -12,13 +12,8 @@ int binarySearch(int arr[], int n, int target){
             low=mid+1;
         }
         if(target==arr[mid]){
-            index=mid;
+            return mid;
         }
     }
-    if(index){
-        return index;
-    }
-    else{
-        return -1;
-    }
+    return -1;
 }
