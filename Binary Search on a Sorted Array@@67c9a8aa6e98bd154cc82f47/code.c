@@ -12,7 +12,7 @@ int binarySearch(int arr[], int n, int target){
             low=mid+1;
         }
         if(target==arr[mid]){
-            index=i;
+            index=mid;
         }
     }
     if(index){
