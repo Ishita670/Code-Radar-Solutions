@@ -1,7 +1,7 @@
 // Your code here...
 int binarySearch(int arr[], int n, int target){
-    int high=n;
-    int low=1;
+    int high=n-1;
+    int low=0
     int mid,index=0;
     for(int i=1; i<=n; i++){
         mid=(high+low)/2;
