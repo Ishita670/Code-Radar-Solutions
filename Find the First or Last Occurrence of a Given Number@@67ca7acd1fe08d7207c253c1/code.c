@@ -1,5 +1,5 @@
 // Your code here...
-int findOccurance(int arr[], int n, int target, int mode){
+int findOccurrence(int arr[], int n, int target, int mode){
     int index=-1;
     switch(mode){
         case 'F':
