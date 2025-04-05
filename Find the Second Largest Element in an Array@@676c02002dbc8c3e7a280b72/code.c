@@ -1,22 +1,20 @@
-// Your code here...
 #include <stdio.h>
 int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int m=arr[1];
-    int m1=0;
-    for(int i=1;i<=n;i++){
+    for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
-        if(arr[i]>m){
-            m=arr[i];
-            if(arr[i]>m1 && arr[i]<m){
-                m1=arr[i];
-            }
+    }
+    int max=arr[0];
+    int secmax=arr[0];
+    for(int i=1; i<n; i++){
+        if(arr[i]>max){
+            max=arr[i];
         }
-        else{
-            m1=-1;
+        if(arr[i]>secmax && arr[i]<max){
+            secmax=arr[i];
         }
     }
-    printf("%d",m1);
+    printf("%d",secmax);
 }
