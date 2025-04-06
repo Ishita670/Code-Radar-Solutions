@@ -14,6 +14,6 @@ int main(){
             s=s+r;
             arr[i]=arr[i]/10;
         }
-        printf("%d ",(abs)s);
+        printf("%d ",abs(s));
     }
 }
