@@ -26,5 +26,10 @@ int main(){
             maxe=arr[i];
         }
     }
-    printf("%d",maxe);
+    if(max>n/2){
+        printf("%d",maxe);
+    }
+    else{
+        printf("-1");
+    }
 }
