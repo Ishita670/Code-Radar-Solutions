@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <stdlib.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -13,6 +14,6 @@ int main(){
             s=s+r;
             arr[i]=arr[i]/10;
         }
-        printf("%d ",s);
+        printf("%d ",(abs)s);
     }
 }
